@@ -1,0 +1,25 @@
+.main-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.app-title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    height: 845px;
+  }
+
+  .app-title {
+    position: relative;
+  }
+}
